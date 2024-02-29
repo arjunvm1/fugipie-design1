@@ -125,7 +125,7 @@ section{
   
     
     .content-container .col-md-6 {
-      flex: 0 0 100%;
+      flex: 1;
       max-width: 100%;
     }
     .t1 .t2 .t3 .b1{
@@ -161,6 +161,18 @@ section{
         max-width: none; 
         margin-bottom: 20px; 
       }
+      
    
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+
+  @media (max-width: 991px) {
+    .navbar-brand,
+    .navbar-toggler {
+      order: -1;
+    }
   }
   
